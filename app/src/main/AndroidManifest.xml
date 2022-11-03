@@ -19,6 +19,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NoActionBar">
         <activity
+            android:name=".TeatherAndStudent"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivity_ZZZero"
             android:exported="false">
             <meta-data
@@ -202,7 +209,6 @@
         <activity
             android:name=".MainActivity9Video"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity8Video"
             android:exported="false" />

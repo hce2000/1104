@@ -20,6 +20,13 @@ class BreadStep1_11 : AppCompatActivity() {
             intent.setClass(this@BreadStep1_11, MainActivity_ZZZero::class.java)
             startActivity(intent)
         }
+        val nextPageBtn3 = findViewById<View>(R.id.button12) as Button
+        nextPageBtn3.setOnClickListener{
+            val intent = Intent()
+            intent.setClass(this@BreadStep1_11, TeatherAndStudent::class.java)
+            startActivity(intent)
+        }
+
         val itemBtn = findViewById<View>(R.id.button0) as Button
         itemBtn.setOnClickListener{
             val intent = Intent()

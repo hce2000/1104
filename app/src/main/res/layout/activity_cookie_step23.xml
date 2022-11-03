@@ -46,6 +46,19 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#3EE40000"
+        android:text="步驟互動遊戲"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/imgPreviewGif"
         android:layout_width="match_parent"
@@ -53,8 +66,8 @@
         android:layout_weight="1"
         android:scaleType="center"
         android:src="@drawable/pineapple_bread_8"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteX="-72dp"
+        tools:layout_editor_absoluteY="-35dp" />
 
     <ImageButton
         android:id="@+id/imageButton"

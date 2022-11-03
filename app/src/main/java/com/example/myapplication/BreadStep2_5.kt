@@ -14,6 +14,12 @@ class BreadStep2_5 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bread_step25)
 
+        val nextPageBtn3 = findViewById<View>(R.id.button12) as Button
+        nextPageBtn3.setOnClickListener{
+            val intent = Intent()
+            intent.setClass(this@BreadStep2_5, TeatherAndStudent::class.java)
+            startActivity(intent)
+        }
         val nextPageBtn = findViewById<View>(R.id.button) as Button
         nextPageBtn.setOnClickListener{
             val intent = Intent()
